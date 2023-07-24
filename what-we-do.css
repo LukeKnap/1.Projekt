@@ -1,0 +1,52 @@
+/* What we do */
+
+.what-we-do-text{
+margin-top: 10px; 
+padding: 0 150px;
+}
+
+.what-we-do-text p {
+  padding-top: 20px;
+}
+
+.wwd-content  {
+  background-color: var(--color-primary-dark);
+  color: var(--color-white);
+  padding: 2rem;
+  text-align: center;
+  padding-top: 40px;  
+  padding-bottom: 20px;
+
+}
+
+.icons-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  list-style-type: none;
+  padding: 50px 60px;
+}
+
+.icons-list img {
+  width: 6vw;
+}
+
+@media (max-width: 385px) {
+
+  .what-we-do-text {
+    padding: 0;
+
+  }
+
+
+  .icons-list {
+  display: flex;
+  flex-direction: column;
+
+  }
+
+
+
+}
+
+

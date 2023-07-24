@@ -1,0 +1,45 @@
+/* Where do you want to go */
+
+.info-where {
+  background-color: var( --color-primary);
+  color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  padding: 50px 200px 30px;
+}
+
+
+.where-info-link {
+  background-color: var( --color-primary);
+  display: flex;
+  justify-content:center;
+  padding: 1rem;
+
+}
+
+.where-info-link a {
+  border-radius: 5px;
+  background: var(--color-white);
+  text-decoration: none;
+  padding: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.where-info-link a:hover{
+  transform: scale(1.2);
+  transition: 0.5s linear;
+
+}
+
+@media screen and (max-width: 1150px) {
+
+  .info-where {
+    flex-wrap: wrap;
+  }
+
+}

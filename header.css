@@ -1,0 +1,113 @@
+         /* Header */
+         header {
+          min-height: 100vh;
+          background-image:url("/images/Head.jpeg");
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+          background-size: auto, 100%;
+          
+          background-attachment: fixed;
+          background-size: cover;
+
+          display: flex;
+          align-items:flex-end;
+          justify-content:end;
+          padding-bottom: 80px;
+          padding-right: 200px;
+
+            
+      }
+
+      h1 {
+        color: var(--color-white);
+        font-size: 50px;
+        text-align: end; 
+         
+      }
+
+      
+
+         .main-nav {
+           width: 100vw;
+           background: rgba(100,75,79,0.7);
+           position: fixed;
+           z-index: 1;
+           top: 0px;
+           left: 0px;
+
+          }
+
+          .main-nav .menu {
+            font-size:clamp(1.35rem, 6vw, 2.75rem);
+            line-height: 1;
+        
+            display:flex;
+            gap:clamp(0.85rem, 4vw, 2rem);
+        }
+
+
+          .main-nav ul {
+            font-size: clamp(1.35rem, 6vw, 2.75rem);
+            line-height: 1;
+            display: flex;
+            justify-content: center;
+            gap: clamp(0.85rem,4vw,2rem);
+          }
+
+          .main-nav a {
+            display: block;
+            padding-top: 0.7rem;
+            padding-bottom: 0.35rem;
+            text-decoration: none;
+            font-size: medium;
+          }
+
+          .main-nav li {
+            color: var(--color-white);
+            display: flex;
+            align-items: center;
+          }
+
+          .hamburger {
+            background: rgba(100,75,79,0.7);
+            width: 3rem;
+            display: none;
+
+          
+          }
+
+  
+          @media screen and (max-width: 1200px) 
+          
+          {      
+            
+            .main-nav {
+              display: flex;
+              flex-direction: row;
+              justify-content: flex-end;
+            }
+
+            .main-nav ul {
+              display: none;
+            }
+
+            .hamburger {
+              display: block;
+            }
+
+
+          }
+
+          @media screen and (max-width: 385px) { 
+
+             header {
+              padding: 2rem 2rem;
+            }
+
+          }
+         
+
+
+        
+         
+    

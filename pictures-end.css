@@ -1,0 +1,14 @@
+.pictures-end {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+
+@media (max-width: 385px) {
+    .pictures-end {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  
+    }
+}

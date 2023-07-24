@@ -1,0 +1,51 @@
+/* Nastavení stránky */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  line-height: 1.15;
+  scroll-behavior: smooth;
+  scroll-padding-top: 10rem;
+}
+
+
+ :root {
+    --color-primary: #644b4f;
+    --color-primary-light: #efa69d ;
+    --color-primary-dark: #33292a;
+  
+    --color-hover: #e9877b;
+  
+    --color-grey-light: #f2f2f2;
+    --color-grey-dark: #333;
+   
+    --color-black: #000;
+    --color-white: #fff;
+  
+    --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+    --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+
+    --facebook-hover: #1877F2;
+    --twitter-hover: #1DA1F2;
+    --instagram-hover: #E4405F;
+    --github-hover: #333333;
+    --youtube-hover: #CD201F;
+  }
+
+
+ a {
+    color: inherit;
+    background-color: transparent;
+ }
+
+ img {
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+ }
+
